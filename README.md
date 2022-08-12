@@ -27,3 +27,9 @@ npm install --save-dev --save-exact prettier
 ```
 npm i sass
 ```
+
+> Install react-router-dom
+
+```
+npm install react-router-dom@6
+```

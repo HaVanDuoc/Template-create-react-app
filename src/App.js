@@ -1,8 +1,18 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { publicRoutes } from '~/routes';
+
 function App() {
   return (
-    <div className="App">
-      <h1>Template React App</h1>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          {publicRoutes.map((route, index) => {
+            const Page = route.page
+            return <Route key={index} path={route.path} element={<Page />} />
+          })}
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
