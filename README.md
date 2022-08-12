@@ -3,7 +3,12 @@
 npx create-react-app react-app
 ```
 
-> Installing customize-cra
+> Install customize-cra
+```
+npm i customize-cra react-app-rewired --save-dev
+```
+
+> Install babel-plugin-module-resolver
 ```
 npm i customize-cra react-app-rewired --save-dev
 ```
