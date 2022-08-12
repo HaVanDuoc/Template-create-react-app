@@ -1,7 +1,7 @@
 function App() {
   return (
     <div className="App">
-      App
+      <h1>Template React App</h1>
     </div>
   );
 }

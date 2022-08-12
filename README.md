@@ -21,3 +21,9 @@ npm i customize-cra react-app-rewired --save-dev
 ```
 npm install --save-dev --save-exact prettier
 ```
+
+> Install sass
+
+```
+npm i sass
+```
